@@ -31,7 +31,7 @@ return [
     | users are actually retrieved out of your database or other storage
     | mechanisms used by this application to persist your user's data.
     |
-    | Supported: "session", "token"
+    | Supported: "session"
     |
     */
 
@@ -39,12 +39,6 @@ return [
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
-        ],
-
-        'api' => [
-            'driver' => 'token',
-            'provider' => 'users',
-            'hash' => false,
         ],
     ],
 
@@ -97,6 +91,7 @@ return [
             'provider' => 'users',
             'table' => 'password_resets',
             'expire' => 60,
+            'throttle' => 60,
         ],
     ],
 
@@ -105,9 +100,9 @@ return [
     | Password Confirmation Timeout
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the amount of seconds before a password confirmation
-    | is timed out and the user's prompted to give their password again on the
-    | confirmation screen. By default the timeout lasts for three hours.
+    | Here you may define the amount of seconds before a password confirmation
+    | times out and the user is prompted to re-enter their password via the
+    | confirmation screen. By default, the timeout lasts for three hours.
     |
     */
 
