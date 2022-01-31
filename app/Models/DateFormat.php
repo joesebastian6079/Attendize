@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Models;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
     /*
       Attendize.com   - Event Management & Ticketing
@@ -13,6 +14,8 @@ namespace App\Models;
  */
 class DateFormat extends \Illuminate\Database\Eloquent\Model
 {
+    use HasFactory;
+
     /**
      * Indicates whether the model should be timestamped.
      *
