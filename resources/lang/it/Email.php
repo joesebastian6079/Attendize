@@ -12,5 +12,5 @@ return [
     'your_ticket_for_event' => 'Il biglietto per l\'evento :event',
     'LLH:obsolete' => [
 
-        ],
+    ],
 ];

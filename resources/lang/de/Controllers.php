@@ -7,14 +7,14 @@ return [
     //============================== New strings to translate ==============================//
     // Defined in file C:\\wamp\\www\\attendize\\resources\\views\\ManageOrganiser\\Events.blade.php
     'sort' => [
-            'event_title' => 'Name der Veranstaltung',
-            'start_date' => 'Startdatum',
-            'created_at' => 'Erstellungsdatum',
-            'quantity_sold' => 'Verkaufte Menge',
-            'sales_volume' => 'Verkaufsvolumen',
-            'sort_order' => 'Benutzerdefinierte Sortierreihenfolge',
-            'title' => 'Names des Ticket',
-        ],
+        'event_title' => 'Name der Veranstaltung',
+        'start_date' => 'Startdatum',
+        'created_at' => 'Erstellungsdatum',
+        'quantity_sold' => 'Verkaufte Menge',
+        'sales_volume' => 'Verkaufsvolumen',
+        'sort_order' => 'Benutzerdefinierte Sortierreihenfolge',
+        'title' => 'Names des Ticket',
+    ],
     //==================================== Translations ====================================//
     'account_successfully_updated' => 'Account erfolgreich bearbeitet',
     'addInviteError' => 'Sie müssen ein Ticket erstellen, bevor Sie einen Teilnehmer einladen.',

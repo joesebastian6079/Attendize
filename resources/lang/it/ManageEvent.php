@@ -94,6 +94,6 @@ return [
     'update_order' => 'Aggiorna ordine',
     'widgets' => 'Widgets',
     'LLH:obsolete' => [
-            'create_question' => 'Crea Domanda',
-        ],
+        'create_question' => 'Crea Domanda',
+    ],
 ];
