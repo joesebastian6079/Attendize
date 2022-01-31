@@ -30,27 +30,27 @@ return [
     'confirmation_malformed' => 'Kod potwierdzający jest niewłaściwy lub nie istnieje.',
     'confirmation_successful' => 'Sukces! Twój adres email został potwierdzony. Możesz się zalogować!',
     'error' => [
-            'email' => [
-                    'email' => 'Proszę wprowadź poprawny adres Email.',
-                    'required' => 'Adres Email jest wymagany.',
-                    'unique' => 'Adres Email już istnieje w naszej bazie danych.',
-                ],
-            'first_name' => [
-                    'required' => 'Proszę wprowadź swoje imię.',
-                ],
-            'last_name' => [
-                    'required' => 'Proszę wprowadź swoje nazwisko.',
-                ],
-            'page_bg_color' => [
-                    'required' => 'Proszę wprowadź kolor tła.',
-                ],
-            'page_header_bg_color' => [
-                    'required' => 'Proszę wprowadź kolor tła nagłówka.',
-                ],
-            'password' => [
-                    'passcheck' => 'Hasło jest niepoprawne.',
-                ],
+        'email' => [
+            'email' => 'Proszę wprowadź poprawny adres Email.',
+            'required' => 'Adres Email jest wymagany.',
+            'unique' => 'Adres Email już istnieje w naszej bazie danych.',
         ],
+        'first_name' => [
+            'required' => 'Proszę wprowadź swoje imię.',
+        ],
+        'last_name' => [
+            'required' => 'Proszę wprowadź swoje nazwisko.',
+        ],
+        'page_bg_color' => [
+            'required' => 'Proszę wprowadź kolor tła.',
+        ],
+        'page_header_bg_color' => [
+            'required' => 'Proszę wprowadź kolor tła nagłówka.',
+        ],
+        'password' => [
+            'passcheck' => 'Hasło jest niepoprawne.',
+        ],
+    ],
     'event_create_exception' => 'Ups! Pojawił sie problem przy tworzeniu wydarzenia. Spróbuj ponownie.',
     'event_page_successfully_updated' => 'Strona wydarzenia zaktualizowana poprawnie!',
     'event_successfully_updated' => 'Wydarzenie zaktualizowane poprawnie!',

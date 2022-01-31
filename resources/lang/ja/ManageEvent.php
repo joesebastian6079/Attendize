@@ -93,6 +93,6 @@ return [
     'update_order'                            => '注文を更新',
     'widgets'                                 => 'ウィジェット',
     'LLH:obsolete'                            => [
-            'create_question' => '質問を作成する',
-        ],
+        'create_question' => '質問を作成する',
+    ],
 ];

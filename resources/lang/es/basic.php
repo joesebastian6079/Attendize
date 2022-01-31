@@ -53,6 +53,6 @@ return [
     'browse' => 'Examinar',
     //================================== Obsolete strings ==================================//
     'LLH:obsolete' => [
-            'months_long' => 'Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre',
-        ],
+        'months_long' => 'Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre',
+    ],
 ];
